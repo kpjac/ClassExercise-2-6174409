@@ -3,16 +3,19 @@ public class Circle extends Shape {
     private double radius;
     final private double PI = 3.14159;
 
+    // default constructor
     public Circle() {
         super();
         radius = 1.0;
     }
 
+    // parameterized constructor - radius only
     public Circle(double radius) {
         super();
         this.radius = radius;
     }
 
+    // parameterized constructor
     public Circle(double radius, String color, boolean filled) {
         super(color, filled);
         this.radius = radius;

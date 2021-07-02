@@ -3,18 +3,21 @@ public class Rectangle extends Shape {
     private double width;
     private double length;
 
+    // default constructor
     public Rectangle() {
         super();
         width = 1.0;
         length = 1.0;
     }
 
+    // parameterized constructor - rectangle dimensions only
     public Rectangle(double width, double length) {
         super();
         this.width = width;
         this.length = length;
     }
 
+    // parameterized constructor
     public Rectangle(String color, boolean filled, double width, double length) {
         super(color, filled);
         this.width = width;
